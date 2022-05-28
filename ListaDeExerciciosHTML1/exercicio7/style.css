@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 30;
+    box-sizing: border-box;
+  }
+
+  .container-titulo {
+    text-align: center;
+  }
+  
+  img#img {
+    width: 290px;
+    height: 250px;
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    .lista {
+      clear:both
+    }
+    .rodape {
+      text-align: center;
+      padding: 10px;
+    }

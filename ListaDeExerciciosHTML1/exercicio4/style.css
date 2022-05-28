@@ -1,0 +1,17 @@
+body {
+    background: rgb(255, 255, 255);
+    }
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    font: normal Arial;
+}
+.tabela thead {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.tabela td {
+    border: 1px solid rgb(168, 168, 168);
+    padding: 8px;
+}

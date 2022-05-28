@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .titulo {
+      background-color: black;
+      color: white;
+      text-align: center;
+
+  }
+  .subtitulo {
+    background-color: rgb(255, 185, 94);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    border-top: 19px solid white;
+  }
+  .receita {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px
+  }
+  img#img {
+    width: 200px;
+    height: 250px;
+  }
+  .lista .dt {
+    font-size: 18px
+  }

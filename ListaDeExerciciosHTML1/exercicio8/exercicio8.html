@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+</html>
+<body>
+    <main>
+        <div class="titulo">
+          <div class="container">
+            <p>Formulário de Cadastro</p>
+          </div>
+        </div>
+
+        <div class="formulario">
+          <div class="container">
+            <form method="POST">
+              <div class="form-container">
+                <label for="nome">Nome:</label><br />
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  class="form"
+                  placeholder="Insira seu nome"
+                  required
+                />
+              </div>
+
+              <div class="form-container">
+                <label for="sobrenome">Sobrenome:</label><br />
+                <input
+                  type="text"
+                  name="sobrenome"
+                  id="sobrenome"
+                  class="form"
+                  placeholder="Insira seu sobrenome"
+                  required
+                />
+              </div>
+  
+              <div class="form-container">
+                <label for="data">Data Nascimento:</label><br />
+                <input
+                  type="date"
+                  name="data"
+                  id="data"
+                  class="form"
+                  required
+                />
+              </div>
+  
+              <div class="form-container">
+                <label for="telefone">Telefone:</label><br />
+                <input
+                  type="tel"
+                  name="telefone"
+                  id="telefone"
+                  class="form"
+                  placeholder="24 98856-2565"
+                  required
+                />
+              </div>
+
+              <div class="form-container">
+                <label for="cpf">CPF:</label><br />
+                <input
+                  type="number"
+                  name="cpf"
+                  id="cpf"
+                  class="form"
+                  required
+                />
+              </div>
+
+              <div class="form-container">
+                <label for="tecdepref">Tecnologia de preferência:</label>
+                <br>
+                <div class="tecdepreftext">
+                <input 
+                type="radio" 
+                name="html" 
+                value="html"> HTML
+
+                <input 
+                type="radio" 
+                name="css" 
+                value="css"> CSS
+
+                <input 
+                type="radio" 
+                name="jvscript" 
+                value="jvscript"> Javascript
+            </div>
+              </div>
+
+              <div class="form-container">
+                <label for="areadeatuacao">Área de atuação:</label><br />
+                <select name="areadeatuacao">
+                    <option value="front-end">Front-End
+                    <option value="back-end">Back-End
+                    </select>
+              </div>
+
+              <div class="form-container">
+
+                <div class="form-container">
+                    <label for="nomeusuario">Nome de Usuário:</label><br />
+                    <input
+                      type="text"
+                      name="usuario"
+                      id="usuario"
+                      class="form"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-container">
+                    <label for="senha">Senha:</label><br />
+                    <input
+                      type="password"
+                      name="senha"
+                      id="senha"
+                      class="form"
+                      required
+                    />
+                  </div>
+                <!-- BOTÕES-->
+                <div class="botao">
+                <input type="submit" class="form-botaoE" value="Enviar" />
+                <input type="reset" class="form-botaoC" value="Cancelar" />
+                </div>  
+            </div>
+            </form>
+          </div>
+        </div>
+      </main>
+</body>
